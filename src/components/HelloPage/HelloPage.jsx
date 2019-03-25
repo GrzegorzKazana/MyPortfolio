@@ -2,8 +2,8 @@ import React from "react";
 import Page from "../Common/Page";
 import "./HelloPage.css";
 
-const HelloPage = props => (
-  <Page title="Hello" className="HelloPage" inputRef={props.inputRef}>
+const HelloPage = ({ inputRef, ...pageProps }) => (
+  <Page title="Hello" className="HelloPage" inputRef={inputRef} {...pageProps}>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero
     metus, porta in nisl non, congue feugiat nisi. Morbi a elit semper mi
     blandit tincidunt. Fusce nec venenatis lectus. Nullam aliquet vel erat at

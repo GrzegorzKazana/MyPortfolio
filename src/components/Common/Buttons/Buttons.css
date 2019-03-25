@@ -16,3 +16,30 @@
 .TextButton:hover .UnderLine {
   width: 100%;
 }
+
+.ArrowButton {
+  height: 20px;
+  width: 20px;
+  border: solid #aaa;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;
+  margin: 8px;
+  transition: transform 0.2s ease;
+}
+
+.Down {
+  transform: rotate(45deg);
+}
+
+.Down:hover {
+  transform: rotate(45deg) scale(1.5);
+}
+
+.Up {
+  transform: rotate(-135deg);
+}
+
+.Up:hover {
+  transform: rotate(-135deg) scale(1.5);
+}

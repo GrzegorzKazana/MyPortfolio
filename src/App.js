@@ -30,9 +30,18 @@ class App extends Component {
           <TextButton text="Skills" onClick={this.scrollToSkills} />
           <TextButton text="Projects" onClick={this.scrollToProjects} />
         </NavBar>
-        <HelloPage inputRef={this.helloPageRef} />
-        <AboutPage inputRef={this.aboutPageRef} />
-        <SkillsPage inputRef={this.skillsPageRef} />
+        <HelloPage
+          inputRef={this.helloPageRef}
+          onScrollDown={this.scrollToAbout}
+        />
+        <AboutPage
+          inputRef={this.aboutPageRef}
+          onScrollDown={this.scrollToSkills}
+        />
+        <SkillsPage
+          inputRef={this.skillsPageRef}
+          onScrollDown={this.scrollToProjects}
+        />
         <ProjectsPage inputRef={this.projectsPageRef} />
       </div>
     );

@@ -2,8 +2,8 @@ import React from "react";
 import Page from "../Common/Page";
 import "./AboutPage.css";
 
-const AboutPage = props => (
-  <Page title="About" className="AboutPage" inputRef={props.inputRef}>
+const AboutPage = ({ inputRef, ...pageProps }) => (
+  <Page title="About" className="AboutPage" inputRef={inputRef} {...pageProps}>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero
     metus, porta in nisl non, congue feugiat nisi. Morbi a elit semper mi
     blandit tincidunt. Fusce nec venenatis lectus. Nullam aliquet vel erat at
