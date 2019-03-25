@@ -31,7 +31,9 @@ class SkillsPage extends React.Component {
             />
           ))}
         </div>
-        <div className="SkillDescription" />
+        <div className="SkillDescription">
+          {skillSetData && skillSetData[selectedSkill].description}
+        </div>
       </Page>
     );
   }
