@@ -14,13 +14,17 @@ class App extends Component {
     this.projectsPageRef = React.createRef();
   }
 
+  componentDidMount() {
+    console.log(this.helloPageRef.current);
+  }
+
   render() {
     return (
       <div className="App">
-        <HelloPage />
-        <AboutPage />
-        <SkillsPage />
-        <ProjectsPage />
+        <HelloPage inputRef={this.helloPageRef} />
+        <AboutPage inputRef={this.aboutPageRef} />
+        <SkillsPage inputRef={this.skillsPageRef} />
+        <ProjectsPage inputRef={this.projectsPageRef} />
       </div>
     );
   }
