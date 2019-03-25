@@ -1,7 +1,8 @@
 import React from "react";
-import Page from "../Common/Page";
 import "./SkillsPage.css";
+import Page from "../Common/Page";
 import SkillEntry from "./SkillEntry";
+import skillSetData from "./SkillSetData";
 
 class SkillsPage extends React.Component {
   state = {
@@ -21,14 +22,14 @@ class SkillsPage extends React.Component {
         {...pageProps}
       >
         <div className="SkillList">
-          <SkillEntry
-            active={selectedSkill === 0}
-            onClick={this.onSelectSkillEntry(0)}
-          />
-          <SkillEntry
-            active={selectedSkill === 1}
-            onClick={this.onSelectSkillEntry(1)}
-          />
+          {skillSetData.map((skill, index) => (
+            <SkillEntry
+              key={index}
+              active={selectedSkill === index}
+              skill={skill}
+              onClick={this.onSelectSkillEntry(index)}
+            />
+          ))}
         </div>
         <div className="SkillDescription" />
       </Page>

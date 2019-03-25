@@ -12,10 +12,10 @@ const SkillRank = ({ level, maxLevel }) => (
   </div>
 );
 
-const SkillEntry = ({ active, onClick }) => (
+const SkillEntry = ({ active, skill, onClick }) => (
   <div className={`SkillEntry ${active ? "active" : ""}`} onClick={onClick}>
-    <i className="devicon-javascript-plain" />
-    <SkillRank level={3} maxLevel={5} />
+    <i className={skill.icon} />
+    <SkillRank level={skill.level} maxLevel={5} />
   </div>
 );
 export default SkillEntry;
