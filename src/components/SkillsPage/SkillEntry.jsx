@@ -12,8 +12,8 @@ const SkillRank = ({ level, maxLevel }) => (
   </div>
 );
 
-const SkillEntry = props => (
-  <div className="SkillEntry">
+const SkillEntry = ({ active, onClick }) => (
+  <div className={`SkillEntry ${active ? "active" : ""}`} onClick={onClick}>
     <i className="devicon-javascript-plain" />
     <SkillRank level={3} maxLevel={5} />
   </div>
