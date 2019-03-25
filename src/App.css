@@ -3,7 +3,7 @@
 }
 
 .Page {
-  height: 100vh;
+  min-height: 100vh;
   color: #aaa;
   padding: 16px;
   display: flex;
