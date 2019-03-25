@@ -10,7 +10,8 @@ const SkillsPage = ({ inputRef, ...pageProps }) => (
     inputRef={inputRef}
     {...pageProps}
   >
-    <div className="SkillListBar">
+    <div className="SkillList">
+      <SkillEntry />
       <SkillEntry />
     </div>
     <div className="SkillDescription" />

@@ -3,14 +3,48 @@
 }
 
 .SkillList {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-evenly;
 }
 
 .SkillDescription {
 }
 
 .SkillEntry {
+  display: inline-block;
+  border: 4px solid #aaa;
+  padding: 8px;
+  margin: 8px;
 }
 
 .SkillEntry i {
   font-size: 7.5rem;
+}
+
+.SkillRank {
+  padding: 8px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.SkillRankMarkActive {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 8px solid #aaa;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.SkillRankMark {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 4px solid #aaa;
+  border-radius: 16px;
+  box-sizing: border-box;
 }
