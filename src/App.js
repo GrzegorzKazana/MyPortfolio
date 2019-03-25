@@ -4,7 +4,8 @@ import HelloPage from "./components/HelloPage/HelloPage";
 import AboutPage from "./components/AboutPage/AboutPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
-import NavBar from "./components/NavBar/NavBar";
+import NavBar from "./components/Common/NavBar/NavBar";
+import { TextButton } from "./components/Common/Buttons/Buttons";
 
 class App extends Component {
   constructor(props) {
@@ -15,14 +16,20 @@ class App extends Component {
     this.projectsPageRef = React.createRef();
   }
 
-  componentDidMount() {
-    console.log(this.helloPageRef.current);
-  }
+  scrollTo = top => window.scrollTo({ top, behavior: "smooth" });
+  scrollToAbout = () => this.scrollTo(this.aboutPageRef.current.offsetTop);
+  scrollToSkills = () => this.scrollTo(this.skillsPageRef.current.offsetTop);
+  scrollToProjects = () =>
+    this.scrollTo(this.projectsPageRef.current.offsetTop);
 
   render() {
     return (
       <div className="App">
-        <NavBar />
+        <NavBar>
+          <TextButton text="About" onClick={this.scrollToAbout} />
+          <TextButton text="Skills" onClick={this.scrollToSkills} />
+          <TextButton text="Projects" onClick={this.scrollToProjects} />
+        </NavBar>
         <HelloPage inputRef={this.helloPageRef} />
         <AboutPage inputRef={this.aboutPageRef} />
         <SkillsPage inputRef={this.skillsPageRef} />

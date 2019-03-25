@@ -1,0 +1,17 @@
+.TextButton {
+  color: #fff;
+  font-size: 1.25em;
+  cursor: pointer;
+}
+
+.UnderLine {
+  background-color: #fff;
+  height: 2px;
+  width: 0%;
+  margin: 0px auto;
+  transition: width 0.2s ease;
+}
+
+.TextButton:hover .UnderLine {
+  width: 100%;
+}
