@@ -17,6 +17,7 @@ class App extends Component {
   }
 
   scrollTo = top => window.scrollTo({ top, behavior: "smooth" });
+  scrollToHello = () => this.scrollTo(this.helloPageRef.current.offsetTop);
   scrollToAbout = () => this.scrollTo(this.aboutPageRef.current.offsetTop);
   scrollToSkills = () => this.scrollTo(this.skillsPageRef.current.offsetTop);
   scrollToProjects = () =>
@@ -42,7 +43,10 @@ class App extends Component {
           inputRef={this.skillsPageRef}
           onScrollDown={this.scrollToProjects}
         />
-        <ProjectsPage inputRef={this.projectsPageRef} />
+        <ProjectsPage
+          inputRef={this.projectsPageRef}
+          onScrollUp={this.scrollToHello}
+        />
       </div>
     );
   }
