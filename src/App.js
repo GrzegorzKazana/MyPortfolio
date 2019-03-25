@@ -4,6 +4,7 @@ import HelloPage from "./components/HelloPage/HelloPage";
 import AboutPage from "./components/AboutPage/AboutPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
 import ProjectsPage from "./components/ProjectsPage/ProjectsPage";
+import NavBar from "./components/NavBar/NavBar";
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <NavBar />
         <HelloPage inputRef={this.helloPageRef} />
         <AboutPage inputRef={this.aboutPageRef} />
         <SkillsPage inputRef={this.skillsPageRef} />
