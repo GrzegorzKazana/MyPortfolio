@@ -36,8 +36,26 @@
 }
 
 .ProjectEntryTitle {
+  font-size: 1em;
 }
 
 .ProjectEntrySubtitle {
   font-size: 0.75em;
+}
+
+.GithubButton {
+  display: inline-block;
+  text-align: center;
+  margin: 8px;
+  padding: 8px;
+  border: 4px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.GithubButton:hover {
+  border-color: #aaa;
+}
+
+.GithubButton i {
+  font-size: 3em;
 }

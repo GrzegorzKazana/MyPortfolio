@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../Common/Page";
 import "./ProjectsPage.css";
 import ProjectEntry from "./ProjectEntry";
+import GithubButton from "./GithubButton";
 import projectSetData from "./ProjectSetData";
 
 const ProjectsPage = ({ inputRef, ...pageProps }) => (
@@ -19,6 +20,7 @@ const ProjectsPage = ({ inputRef, ...pageProps }) => (
           <ProjectEntry key={index} projectData={projectData} />
         ))}
     </div>
+    <GithubButton />
 
     <div>Here is what i've been working on lately. Something something.</div>
   </Page>
