@@ -4,18 +4,22 @@ import "./AboutPage.css";
 
 const AboutPage = ({ inputRef, ...pageProps }) => (
   <Page title="About" className="AboutPage" inputRef={inputRef} {...pageProps}>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero
-    metus, porta in nisl non, congue feugiat nisi. Morbi a elit semper mi
-    blandit tincidunt. Fusce nec venenatis lectus. Nullam aliquet vel erat at
-    semper. Vivamus a ullamcorper ipsum. Proin rhoncus tempus facilisis. Mauris
-    at metus vitae purus lobortis imperdiet vitae et felis. Morbi fringilla nibh
-    eu venenatis laoreet. Integer a lacinia lorem, eget feugiat sapien. Class
-    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-    himenaeos. Nullam molestie urna at rhoncus consectetur. Vivamus sapien
-    metus, fringilla auctor auctor vel, semper sit amet metus. Orci varius
-    natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Praesent aliquet enim eu lorem fermentum, ut pellentesque turpis mollis.
-    Vivamus vestibulum odio est, eget aliquet nisl pharetra a.
+    <div>
+      <p>
+        I am a third year undergraduate student in Computer Science in Silesian
+        University Of Technology.
+      </p>
+      <p>
+        I am really into learning new things and broadening my current
+        experience.
+      </p>
+      <p>
+        My craft is forging awesome websites with ReactJS. In my free time I
+        also like to dive deep into the world of Machine Learning. Not scared of
+        math.
+      </p>
+      <p>The following page was built in pure React.</p>
+    </div>
   </Page>
 );
 export default AboutPage;
