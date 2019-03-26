@@ -2,3 +2,15 @@
   background-color: #111;
   min-height: 33vh;
 }
+
+.EmailWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 48px 0;
+}
+
+.ContactPage i {
+  margin: 0 16px 0 0;
+  font-size: 2em;
+}

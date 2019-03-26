@@ -9,10 +9,10 @@ const ContactPage = ({ inputRef, ...pageProps }) => (
     inputRef={inputRef}
     {...pageProps}
   >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur libero
-    metus, porta in nisl non, congue feugiat nisi. Morbi a elit semper mi
-    blandit tincidunt. Fusce nec venenatis lectus. Nullam aliquet vel erat at
-    semper.
+    <div className="EmailWrapper">
+      <i class="fa fa-envelope-o" aria-hidden="true" />
+      <span>kazana.grzegorz@gmail.com</span>
+    </div>
   </Page>
 );
 export default ContactPage;
