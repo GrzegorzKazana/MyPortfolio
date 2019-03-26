@@ -6,7 +6,9 @@ const HelloPage = ({ inputRef, ...pageProps }) => (
   <Page className="HelloPage" inputRef={inputRef} {...pageProps}>
     <h1 className="Title">Hi, I'm Grzegorz</h1>
     <h3 className="subtitle">
-      Junior Front-End Dev | ML enthusiast | Eager Learner
+      <span>Junior Front-End Dev |&nbsp;</span>
+      <span>ML enthusiast |&nbsp;</span>
+      <span>Eager Learner</span>
     </h3>
   </Page>
 );

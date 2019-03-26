@@ -3,7 +3,7 @@
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  height: 64px;
+  height: 48px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,4 +11,5 @@
   font-size: 2em;
   padding-right: 16px;
   z-index: 1;
+  background-color: rgba(34, 34, 34, 0.5);
 }
