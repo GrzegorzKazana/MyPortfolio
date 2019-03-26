@@ -21,8 +21,6 @@ const ProjectsPage = ({ inputRef, ...pageProps }) => (
         ))}
     </div>
     <GithubButton />
-
-    <div>Here is what i've been working on lately. Something something.</div>
   </Page>
 );
 
