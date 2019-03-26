@@ -11,8 +11,33 @@
   padding: 8px;
   border: 4px solid transparent;
   transition: border-color 0.2s ease;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.ProjectEntry i {
+  font-size: 4rem;
+  margin: 0px 8px 0px 0px;
 }
 
 .ProjectEntry:hover {
   border-color: #aaa;
+}
+
+.ProjectLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ProjectEntryContent {
+  display: inline-block;
+}
+
+.ProjectEntryTitle {
+}
+
+.ProjectEntrySubtitle {
+  font-size: 0.75em;
 }
