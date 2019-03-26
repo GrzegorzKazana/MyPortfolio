@@ -4,9 +4,9 @@ import "./HelloPage.css";
 
 const HelloPage = ({ inputRef, ...pageProps }) => (
   <Page className="HelloPage" inputRef={inputRef} {...pageProps}>
-    <h1>Hi, i'm Grzesiek.</h1>
+    <h1 className="Title">Hi, I'm Grzegorz</h1>
     <h3 className="subtitle">
-      Junior Front-End Dev | ML aficionado | Eager Learner
+      Junior Front-End Dev | ML enthusiast | Eager Learner
     </h3>
   </Page>
 );

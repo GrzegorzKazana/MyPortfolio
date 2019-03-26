@@ -1,11 +1,20 @@
 .HelloPage {
   background-color: transparent;
+  border-color: #bbb;
+  color: #bbb;
 }
 
 .HelloPage .PageContent {
   justify-content: center;
 }
 
+.Title {
+}
+
 .subtitle {
   margin: 0px;
+}
+
+.HelloPage .ArrowButton {
+  border-color: #aaa;
 }
