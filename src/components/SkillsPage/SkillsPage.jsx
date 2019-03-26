@@ -32,7 +32,10 @@ class SkillsPage extends React.Component {
           ))}
         </div>
         <div className="SkillDescription">
-          {skillSetData && skillSetData[selectedSkill].description}
+          {skillSetData &&
+            skillSetData[selectedSkill].description
+              .split("<br/>")
+              .map((line, index) => <p key={index}>{line}</p>)}
         </div>
       </Page>
     );
