@@ -8,10 +8,10 @@ export const TextButton = ({ text, onClick }) => (
   </div>
 );
 
-export const ArrowDownButton = ({ onClick }) => (
-  <span className="ArrowButton Down" onClick={onClick} />
+export const ArrowDownButton = ({ onClick, className }) => (
+  <span className={`ArrowButton Down ${className}`} onClick={onClick} />
 );
 
-export const ArrowUpButton = ({ onClick }) => (
-  <span className="ArrowButton Up" onClick={onClick} />
+export const ArrowUpButton = ({ onClick, className }) => (
+  <span className={`ArrowButton Up ${className}`} onClick={onClick} />
 );

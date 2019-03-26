@@ -27,3 +27,11 @@
   flex-direction: column;
   align-items: center;
 }
+
+.fab {
+  color: #aaa;
+  font-size: 3em;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+}

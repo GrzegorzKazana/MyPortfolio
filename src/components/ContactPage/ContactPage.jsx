@@ -10,7 +10,7 @@ const ContactPage = ({ inputRef, ...pageProps }) => (
     {...pageProps}
   >
     <div className="EmailWrapper">
-      <i class="fa fa-envelope-o" aria-hidden="true" />
+      <i className="fa fa-envelope-o" aria-hidden="true" />
       <span>kazana.grzegorz@gmail.com</span>
     </div>
   </Page>
