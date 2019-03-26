@@ -17,6 +17,10 @@
   width: 100%;
 }
 
+.ArrowButtonWrapper {
+  padding: 8px;
+}
+
 .ArrowButton {
   height: 20px;
   width: 20px;
@@ -29,17 +33,17 @@
 }
 
 .Down {
-  transform: rotate(45deg);
+  transform: translateY(-25%) rotate(45deg);
 }
 
-.Down:hover {
-  transform: rotate(45deg) scale(1.5);
+.ArrowButtonWrapper:hover .Down {
+  transform: translateY(-25%) rotate(45deg) scale(1.5);
 }
 
 .Up {
-  transform: rotate(-135deg);
+  transform: translateY(25%) rotate(-135deg);
 }
 
-.Up:hover {
-  transform: rotate(-135deg) scale(1.5);
+.ArrowButtonWrapper:hover .Up {
+  transform: translateY(25%) rotate(-135deg) scale(1.5);
 }

@@ -9,9 +9,13 @@ export const TextButton = ({ text, onClick }) => (
 );
 
 export const ArrowDownButton = ({ onClick, className }) => (
-  <span className={`ArrowButton Down ${className}`} onClick={onClick} />
+  <div className="ArrowButtonWrapper" onClick={onClick}>
+    <span className={`ArrowButton Down ${className}`} />
+  </div>
 );
 
 export const ArrowUpButton = ({ onClick, className }) => (
-  <span className={`ArrowButton Up ${className}`} onClick={onClick} />
+  <div className="ArrowButtonWrapper" onClick={onClick}>
+    <span className={`ArrowButton Up ${className}`} />
+  </div>
 );
