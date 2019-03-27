@@ -1,0 +1,24 @@
+.Page {
+  min-height: 100vh;
+  color: #aaa;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.PageTitle {
+  font-size: 5em;
+}
+
+.PageContent {
+  flex-grow: 1;
+  max-width: 800px;
+  font-size: 2em;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

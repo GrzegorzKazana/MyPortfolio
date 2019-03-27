@@ -1,5 +1,5 @@
 import React from "react";
-import Page from "../Common/Page";
+import Page from "../Common/Page/Page";
 import "./ProjectsPage.css";
 import ProjectEntry from "./ProjectEntry";
 import GithubButton from "./GithubButton";

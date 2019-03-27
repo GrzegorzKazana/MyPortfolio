@@ -1,10 +1,10 @@
 import React from "react";
-import Page from "../Common/Page";
+import Page from "../Common/Page/Page";
 import "./ContactPage.css";
 
 const ContactPage = ({ inputRef, ...pageProps }) => (
   <Page
-    title="Contact"
+    title="Contact me"
     className="ContactPage"
     inputRef={inputRef}
     {...pageProps}

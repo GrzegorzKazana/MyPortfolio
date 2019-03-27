@@ -1,6 +1,6 @@
 import React from "react";
 import "./SkillsPage.css";
-import Page from "../Common/Page";
+import Page from "../Common/Page/Page";
 import SkillEntry from "./SkillEntry";
 import skillSetData from "./SkillSetData";
 

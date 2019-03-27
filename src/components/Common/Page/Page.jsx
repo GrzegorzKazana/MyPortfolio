@@ -1,6 +1,6 @@
 import React from "react";
-import "../../App.css";
-import { ArrowDownButton, ArrowUpButton } from "./Buttons/Buttons";
+import "./Page.css";
+import { ArrowDownButton, ArrowUpButton } from "../Buttons/Buttons";
 
 const Page = props => (
   <div className={`Page ${props.className}`} ref={props.inputRef}>
