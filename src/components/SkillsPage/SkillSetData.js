@@ -9,11 +9,11 @@ export default [
       <>
         <p>
           React.js is the framework I feel comfortable and have the most
-          experience with. I have been also working with React-Redux.
+          experience with. I have also been working with React-Redux.
         </p>
         <p>
-          I am familiar with ES6 features, and have at least basic knowledge
-          about newest standards.
+          I feel confident with ES6 features, and I am keeping up to date with
+          newest standards.
         </p>
       </>
     )
@@ -60,8 +60,8 @@ export default [
           apps for personal use.
         </p>
         <p>
-          I have basic Django Rest Framework knowledge and experience with NumPy
-          and Pandas. Learning TensorFlow.
+          I am capable of creating simple Django Rest Framework API, and have
+          experience with NumPy and Pandas. Learning TensorFlow.
         </p>
       </>
     )
