@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://GrzegorzKazana.github.io/MyPortfolio",
   "dependencies": {
+    "@babel/core": "^7.4.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
