@@ -12,7 +12,7 @@ const ProjectsPage = ({ inputRef, ...pageProps }) => (
     inputRef={inputRef}
     {...pageProps}
   >
-    <div>Here is what i've been working on lately. Something something.</div>
+    <div>Here is what i've been working on lately.</div>
 
     <div className="ProjectsList">
       {projectSetData &&

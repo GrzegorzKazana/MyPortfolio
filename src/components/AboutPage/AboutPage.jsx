@@ -10,15 +10,13 @@ const AboutPage = ({ inputRef, ...pageProps }) => (
         University Of Technology.
       </p>
       <p>
-        I am really into learning new things and broadening my current
-        experience.
+        I am all about learning new things and broadening my current experience.
       </p>
       <p>
-        My craft is forging awesome websites with ReactJS. In my free time I
-        also like to dive deep into the world of Machine Learning. Not scared of
-        math.
+        My craft is creating awesome websites with React. I'm into minimalism
+        and smart design. In my free time I also like to dive deep into the
+        world of Machine Learning. Not scared of math.
       </p>
-      <p>The following page was built in pure React.</p>
     </div>
   </Page>
 );

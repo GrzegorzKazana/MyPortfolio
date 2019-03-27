@@ -7,7 +7,7 @@ export default [
   },
   {
     title: "MyPortfolio",
-    description: "Page you are currently watching ;)",
+    description: "Page you are currently watching",
     icon: "devicon-javascript-plain",
     url: "https://github.com/GrzegorzKazana/"
   },

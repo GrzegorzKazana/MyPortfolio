@@ -4,11 +4,11 @@ export default [
     icon: "devicon-javascript-plain",
     level: 3,
     description: `
-      React.js is the framework I am most comfortable and have the most experience with.
+      React.js is the framework I feel comfortable and have the most experience with.
       I have been also working with React-Redux.<br/>
-      I am familiar with ES6 features and standards, 
+      I am familiar with ES6 features, 
       and have at least basic knowledge about newest standards.<br/>
-      Furthermore, my short-term goal is learning TypeScript.
+      
       `
   },
   {
@@ -25,9 +25,9 @@ export default [
     level: 3,
     description: `
       I feel comfortable using CSS in my projects. 
-      I know how to use modern layouts (flexbox, grid) and I am 
+      I know how to use modern layouts, like flexbox or grid layout, and I am 
       familiar with basic selectors.<br/>
-      For styling my react projects i have been using plain .css, styled-components and Material-UI.
+      For styling my react projects i have been using plain CSS, styled-components and Material-UI.
     `
   },
   {
